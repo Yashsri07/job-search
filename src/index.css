@@ -1,0 +1,133 @@
+html,
+body{
+  height: 100%;
+  width: 100%;
+}
+
+.parent{
+  background-color: #2f2f2f;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.parent h1{
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  display: flex;
+  margin: 1% 35%;
+}
+
+.Card{
+  width: 300px;
+  height: 320px;
+  border-radius: 35px;
+  background-color: white;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.Card {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.Card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+.Card .header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.header img{
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  border: 1px solid #dadada;
+  padding: 2px;
+}
+.header button{
+  display: flex;
+  align-items: center;
+  border: 1px solid #dadada;
+  padding: 4px 8px;
+  font-size: 13px;
+  border-radius: 5px;
+  gap: 3px;
+  background-color: transparent;
+  color: #b1b1b1;
+}
+.header button:hover{
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+.header button:active{
+  transform: scale(0.94);
+  box-shadow: inset 0 2px 6px rgba(0,0,0,0.25);
+}
+
+.content h3{
+  font-size: 17px;
+  font-weight: 500;
+}
+.content h3 span{
+  font-size: 9px;
+  font-weight: 400;
+  color: #8b8b8b;
+}
+.content h2{
+  font-size: 20px;
+}
+.content .tags{
+  margin-top: 10px;
+  display: flex;
+  gap: 5px;
+}
+.content .tags h4{
+  font-size: 12px;
+  background-color: #dadada;
+  color: black;
+  padding: 3px 6px;
+  font-weight: 400px;
+}
+
+.footer{
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #b1b1b1;
+  padding-top: 15px;
+}
+.footer button{
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+}
+.footer button:hover{
+  background-color: grey;
+  cursor: pointer;
+}
+.footer button:active{
+  transform: scale(0.94);
+  box-shadow: inset 0 2px 6px rgba(0,0,0,0.25);
+}
+
+.footer h3{
+  font-size: 17px;
+}
+.footer p{
+  font-size: 12px;
+  color: #8b8b8b;
+}
