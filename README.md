@@ -1,3 +1,9 @@
+This project is made by me for the practice purpose,
+I build this project by taking the refrence of existing demo UI for grocery listing,
+I build this reactJS project according to my understanding of this tech and to improve my skills.
+
+you can also have a look for the UI I designed:- https://fluffy-puffpuff-45e47b.netlify.app/
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
